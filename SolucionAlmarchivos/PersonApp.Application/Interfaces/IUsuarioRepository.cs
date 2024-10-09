@@ -7,7 +7,7 @@ namespace PersonApp.Application.Interfaces
         Task<RespuestaDto> Login(LoginDto dto);
         Task<List<UsuarioDto>> Listar();
         Task<UsuarioDto> ObtenerXId(int id);
-        Task<RespuestaDto> Insertar(UsuarioDto newUsuario);
+        Task<RespuestaDto> Insertar(UsuarioDto objUsuario);
         Task<RespuestaDto> Actualizar(UsuarioDto objUsuario);
         Task<RespuestaDto> Borrar(int id);
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8fb227ffb4b99465c7b11e3084e79de7f20beb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c00148c8a69d36e4e3f7be937abc329fd1a8435")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

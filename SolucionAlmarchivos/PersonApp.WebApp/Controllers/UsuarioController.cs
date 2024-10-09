@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Humanizer;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.LibraryModel;
 using PersonApp.Application.Interfaces;
 using PersonApp.Domain.DTO;
+using PersonApp.Domain.Utils;
 
-namespace PersonApp.WebApp.Controllers
+
+namespace Usuariopp.WebApp.Controllers
 {
     public class UsuarioController : Controller
     {
@@ -28,17 +31,28 @@ namespace PersonApp.WebApp.Controllers
         // POST: UsuarioController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        public async Task<ActionResult> Create(UsuarioDto objUsuario)
+		{
+			if (ModelState.IsValid)
+			{
+                objUsuario.Password = Helpers.Encriptar(objUsuario.Password);
+				objUsuario.ConfirmaPass = Helpers.Encriptar(objUsuario.ConfirmaPass);
+				RespuestaDto respuesta = await _repository.Insertar(objUsuario);
+				if (respuesta.EsValido)
+				{
+					return RedirectToAction(nameof(Index));
+				}
+				else
+				{
+					ViewData["error"] = respuesta.Mensaje;
+					return View(objUsuario);
+				}
+			}
+			else
+			{
+				return View(objUsuario);
+			}
+		}
 
         // GET: UsuarioController/Edit/5
         public async Task<ActionResult> Edit(int id)
@@ -49,16 +63,40 @@ namespace PersonApp.WebApp.Controllers
         // POST: UsuarioController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(UsuarioDto objUsuario)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+
+			try
+			{
+				if (ModelState.IsValid)
+				{
+					UsuarioDto usuarioEdit = await _repository.ObtenerXId(objUsuario.Id);
+					if (objUsuario.Password != usuarioEdit.Password)
+					{
+						objUsuario.Password = Helpers.Encriptar(objUsuario.Password);
+						objUsuario.ConfirmaPass = Helpers.Encriptar(objUsuario.ConfirmaPass);
+					}
+					RespuestaDto respuesta = await _repository.Actualizar(objUsuario);
+					if (respuesta.EsValido)
+					{
+						return RedirectToAction(nameof(Index));
+					}
+					else
+					{
+						ViewData["error"] = respuesta.Mensaje;
+						return View(objUsuario);
+					}
+				}
+				else
+				{
+					return View(objUsuario);
+				}
+
+			}
+			catch
+			{
+				return View(objUsuario);
+			}			
         }        
 
         // POST: UsuarioController/Delete/5
@@ -66,14 +104,12 @@ namespace PersonApp.WebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Delete(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+			RespuestaDto respuesta = await _repository.Borrar(id);
+			if (!respuesta.EsValido)
+			{
+				ViewData["error"] = respuesta.Mensaje;
+			}
+			return RedirectToAction(nameof(Index));
+		}
     }
 }

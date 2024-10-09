@@ -16,3 +16,5 @@ D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Infrastructure\obj\Debug\
 D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Infrastructure\obj\Debug\net8.0\refint\PersonApp.Infrastructure.dll
 D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Infrastructure\obj\Debug\net8.0\PersonApp.Infrastructure.pdb
 D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Infrastructure\obj\Debug\net8.0\ref\PersonApp.Infrastructure.dll
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Infrastructure\bin\Debug\net8.0\PersonApp.Infrastructure.runtimeconfig.json
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Infrastructure\obj\Debug\net8.0\PersonApp.Infrastructure.genruntimeconfig.cache

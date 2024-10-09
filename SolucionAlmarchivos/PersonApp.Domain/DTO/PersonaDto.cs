@@ -22,7 +22,7 @@ namespace PersonApp.Domain.DTO
 
         [Required(ErrorMessage = "El campo Tipo de Identificacion es obbligatorio")]
         [Display(Name ="Tipo de Identificacion")]
-        public string IdTipoIdentificacion { get; set; }
+        public int IdTipoIdentificacion { get; set; }
         public string TipoIdentificacion { get; set; }
 
         [Required(ErrorMessage = "El campo Número de identificación es obligatorio")]

@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using PersonApp.Application.Interfaces;
+using PersonApp.Infrastructure.Context;
 using PersonApp.Infrastructure.Repositories;
 
 
@@ -8,7 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IPersonaRepository, PersonaRepository>();
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
-
+builder.Services.AddDbContext<RegistrosDbContext>(options =>
+	options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnectionString"))
+);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
