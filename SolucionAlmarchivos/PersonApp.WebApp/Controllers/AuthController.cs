@@ -16,15 +16,11 @@ namespace PersonApp.WebApp.Controllers
         }
         // GET: AuthController
         public async Task<ActionResult> Login()
-        {
-            HttpContext.Session.Clear();
+        {            
             return View(new LoginDto());
         }
-
-        
-        // POST: AuthController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+                
+        [HttpPost]        
         public async Task<ActionResult> Login(LoginDto dto)
         {
             try
@@ -38,10 +34,10 @@ namespace PersonApp.WebApp.Controllers
                         return RedirectToAction("Index","Home");
                     }
                     else {
-                        return RedirectToAction(nameof(Index));
+                        return RedirectToAction(nameof(Login));
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return View(dto);
 
             }
             catch

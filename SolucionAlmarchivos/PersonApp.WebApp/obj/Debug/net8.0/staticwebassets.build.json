@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y4vthgkj7HRlK6EIn1cngPs/6Zz0DfBzoKAU5WzEhcI=",
+  "Hash": "AMil2LGOqXdfS+QInV3EsM1jopQevV0r7tu6tgDR818=",
   "Source": "PersonApp.WebApp",
   "BasePath": "_content/PersonApp.WebApp",
   "Mode": "Default",
@@ -2048,6 +2048,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\wwwroot\\logo_lobo.png",
+      "SourceId": "PersonApp.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\wwwroot\\",
+      "BasePath": "_content/PersonApp.WebApp",
+      "RelativePath": "logo_lobo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo_lobo.png"
     }
   ]
 }

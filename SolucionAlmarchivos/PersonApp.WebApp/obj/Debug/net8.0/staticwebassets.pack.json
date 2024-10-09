@@ -425,6 +425,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\wwwroot\\logo_lobo.png",
+      "PackagePath": "staticwebassets\\logo_lobo.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PersonApp.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
