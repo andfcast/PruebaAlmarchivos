@@ -1,0 +1,16 @@
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\bin\Debug\net8.0\PersonApp.Application.deps.json
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\bin\Debug\net8.0\PersonApp.Application.dll
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\bin\Debug\net8.0\PersonApp.Application.pdb
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\bin\Debug\net8.0\PersonApp.Domain.dll
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\bin\Debug\net8.0\PersonApp.Domain.pdb
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonApp.Application.csproj.AssemblyReference.cache
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonApp.Application.AssemblyInfoInputs.cache
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonApp.Application.AssemblyInfo.cs
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonApp.Application.csproj.CoreCompileInputs.cache
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonApp.Application.sourcelink.json
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonAp.903345AC.Up2Date
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonApp.Application.dll
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\refint\PersonApp.Application.dll
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\PersonApp.Application.pdb
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Application\obj\Debug\net8.0\ref\PersonApp.Application.dll
