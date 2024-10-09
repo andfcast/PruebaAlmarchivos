@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.domain\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|solutionrelative:personapp.domain\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\views\\persona\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.domain\\dto\\personadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|solutionrelative:personapp.domain\\dto\\personadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.domain\\utils\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|solutionrelative:personapp.domain\\utils\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B220AE-A992-4CAD-9054-F0024C65F0D1}|PersonApp.Infrastructure\\PersonApp.Infrastructure.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B220AE-A992-4CAD-9054-F0024C65F0D1}|PersonApp.Infrastructure\\PersonApp.Infrastructure.csproj|solutionrelative:personapp.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.domain\\dto\\personadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|solutionrelative:personapp.domain\\dto\\personadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -39,14 +79,6 @@
       "RelativeMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|solutionrelative:personapp.domain\\dto\\respuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07B220AE-A992-4CAD-9054-F0024C65F0D1}|PersonApp.Infrastructure\\PersonApp.Infrastructure.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B220AE-A992-4CAD-9054-F0024C65F0D1}|PersonApp.Infrastructure\\PersonApp.Infrastructure.csproj|solutionrelative:personapp.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07B220AE-A992-4CAD-9054-F0024C65F0D1}|PersonApp.Infrastructure\\PersonApp.Infrastructure.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.infrastructure\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07B220AE-A992-4CAD-9054-F0024C65F0D1}|PersonApp.Infrastructure\\PersonApp.Infrastructure.csproj|solutionrelative:personapp.infrastructure\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,20 +91,8 @@
       "RelativeMoniker": "D:0:0:{A38716B4-E6EB-4DF6-AF48-4425CB531EB6}|PersonApp.Application\\PersonApp.Application.csproj|solutionrelative:personapp.application\\interfaces\\ipersonarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.domain\\utils\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|solutionrelative:personapp.domain\\utils\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.webapp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E76474C-F7C7-454F-AE20-E54493655345}|PersonApp.WebApp\\PersonApp.WebApp.csproj|solutionrelative:personapp.webapp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.domain\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|solutionrelative:personapp.domain\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E765E665-D0CD-40C3-9677-B4B094716B54}|PersonApp.Domain\\PersonApp.Domain.csproj|d:\\git\\pruebaalmarchivos\\solucionalmarchivos\\personapp.domain\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,32 +115,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Persona\\Index.cshtml",
-              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Persona\\Index.cshtml",
-              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Persona\\Index.cshtml",
-              "RelativeToolTip": "PersonApp.WebApp\\Views\\Persona\\Index.cshtml",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Usuario\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Usuario\\Edit.cshtml",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Usuario\\Edit.cshtml",
+              "RelativeToolTip": "PersonApp.WebApp\\Views\\Usuario\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T15:00:18.367Z",
+              "WhenOpened": "2024-10-09T17:45:21.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Usuario\\Create.cshtml",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Usuario\\Create.cshtml",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Usuario\\Create.cshtml",
+              "RelativeToolTip": "PersonApp.WebApp\\Views\\Usuario\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T17:00:24.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Persona\\Index.cshtml",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Persona\\Index.cshtml",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Persona\\Index.cshtml",
+              "RelativeToolTip": "PersonApp.WebApp\\Views\\Persona\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T16:57:44.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "PersonApp.WebApp\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T16:16:13.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Persona\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Persona\\Edit.cshtml",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Persona\\Edit.cshtml",
+              "RelativeToolTip": "PersonApp.WebApp\\Views\\Persona\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T15:43:03.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Persona\\Create.cshtml",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Persona\\Create.cshtml",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Persona\\Create.cshtml",
+              "RelativeToolTip": "PersonApp.WebApp\\Views\\Persona\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T15:40:25.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PersonApp.WebApp\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PersonApp.WebApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T14:56:29.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PersonApp.WebApp\\Properties\\launchSettings.json",
@@ -133,98 +218,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "PersonApp.WebApp\\appsettings.json",
-              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\appsettings.json",
-              "RelativeToolTip": "PersonApp.WebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-09T14:56:01.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "PersonApp.WebApp\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T14:48:54.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "Helpers.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\Utils\\Helpers.cs",
               "RelativeDocumentMoniker": "PersonApp.Domain\\Utils\\Helpers.cs",
               "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\Utils\\Helpers.cs",
               "RelativeToolTip": "PersonApp.Domain\\Utils\\Helpers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T14:30:26.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "login.css",
-              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\wwwroot\\css\\login.css",
-              "RelativeDocumentMoniker": "PersonApp.WebApp\\wwwroot\\css\\login.css",
-              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\wwwroot\\css\\login.css",
-              "RelativeToolTip": "PersonApp.WebApp\\wwwroot\\css\\login.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-09T14:22:27.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "PersonApp.WebApp\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\AuthController.cs",
               "RelativeToolTip": "PersonApp.WebApp\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T14:21:45.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "PersonaController.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\PersonaController.cs",
               "RelativeDocumentMoniker": "PersonApp.WebApp\\Controllers\\PersonaController.cs",
               "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\PersonaController.cs",
               "RelativeToolTip": "PersonApp.WebApp\\Controllers\\PersonaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwDIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T14:21:26.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RespuestaDto.cs",
-              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\RespuestaDto.cs",
-              "RelativeDocumentMoniker": "PersonApp.Domain\\DTO\\RespuestaDto.cs",
-              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\RespuestaDto.cs",
-              "RelativeToolTip": "PersonApp.Domain\\DTO\\RespuestaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:04:44.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Program.cs",
               "RelativeDocumentMoniker": "PersonApp.WebApp\\Program.cs",
@@ -241,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Infrastructure\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "PersonApp.Infrastructure\\Repositories\\UsuarioRepository.cs",
@@ -254,7 +287,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "PersonApp.WebApp\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:21:11.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\appsettings.json",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\appsettings.json",
+              "RelativeToolTip": "PersonApp.WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T14:56:01.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "PersonApp.WebApp\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T14:48:54.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "PersonApp.Domain\\DTO\\UsuarioDto.cs",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\UsuarioDto.cs",
+              "RelativeToolTip": "PersonApp.Domain\\DTO\\UsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:40:28.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RespuestaDto.cs",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\RespuestaDto.cs",
+              "RelativeDocumentMoniker": "PersonApp.Domain\\DTO\\RespuestaDto.cs",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\RespuestaDto.cs",
+              "RelativeToolTip": "PersonApp.Domain\\DTO\\RespuestaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:04:44.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "PersonApp.WebApp\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "PersonApp.WebApp\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-09T14:22:27.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "PersonaDto.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\PersonaDto.cs",
               "RelativeDocumentMoniker": "PersonApp.Domain\\DTO\\PersonaDto.cs",
@@ -267,20 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "PersonApp.WebApp\\Controllers\\UsuarioController.cs",
-              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.WebApp\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "PersonApp.WebApp\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:21:11.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "PersonaRepository.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Infrastructure\\Repositories\\PersonaRepository.cs",
               "RelativeDocumentMoniker": "PersonApp.Infrastructure\\Repositories\\PersonaRepository.cs",
@@ -293,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Application\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "PersonApp.Application\\Interfaces\\IUsuarioRepository.cs",
@@ -306,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "IPersonaRepository.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Application\\Interfaces\\IPersonaRepository.cs",
               "RelativeDocumentMoniker": "PersonApp.Application\\Interfaces\\IPersonaRepository.cs",
@@ -319,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Enums.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\Enums\\Enums.cs",
               "RelativeDocumentMoniker": "PersonApp.Domain\\Enums\\Enums.cs",
@@ -332,20 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UsuarioDto.cs",
-              "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\UsuarioDto.cs",
-              "RelativeDocumentMoniker": "PersonApp.Domain\\DTO\\UsuarioDto.cs",
-              "ToolTip": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\UsuarioDto.cs",
-              "RelativeToolTip": "PersonApp.Domain\\DTO\\UsuarioDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:40:28.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Git\\PruebaAlmarchivos\\SolucionAlmarchivos\\PersonApp.Domain\\DTO\\LoginDto.cs",
               "RelativeDocumentMoniker": "PersonApp.Domain\\DTO\\LoginDto.cs",

@@ -1,32 +1,34 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PersonApp.Application.Interfaces;
+using PersonApp.Domain.DTO;
 
 namespace PersonApp.WebApp.Controllers
 {
     public class UsuarioController : Controller
     {
+        private readonly IUsuarioRepository _repository;
+
+        public UsuarioController(IUsuarioRepository repository)
+        {
+            _repository = repository;
+        }
         // GET: UsuarioController
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
-            return View();
+            return View(await _repository.Listar());
         }
-
-        // GET: UsuarioController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
+        
         // GET: UsuarioController/Create
-        public ActionResult Create()
+        public async Task<ActionResult> Create()
         {
-            return View();
+            return View(new UsuarioDto());
         }
 
         // POST: UsuarioController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(IFormCollection collection)
         {
             try
             {
@@ -39,15 +41,15 @@ namespace PersonApp.WebApp.Controllers
         }
 
         // GET: UsuarioController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(int id)
         {
-            return View();
+            return View(await _repository.ObtenerXId(id));
         }
 
         // POST: UsuarioController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(int id, IFormCollection collection)
         {
             try
             {
@@ -57,18 +59,12 @@ namespace PersonApp.WebApp.Controllers
             {
                 return View();
             }
-        }
-
-        // GET: UsuarioController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
+        }        
 
         // POST: UsuarioController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult> Delete(int id)
         {
             try
             {

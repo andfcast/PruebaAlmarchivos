@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PersonApp.Application.Interfaces;
+using PersonApp.Domain.DTO;
 
 namespace PersonApp.WebApp.Controllers
 {
@@ -20,21 +21,21 @@ namespace PersonApp.WebApp.Controllers
         }
 
         // GET: PersonaController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(int id)
         {
-            return View();
+            return View(await _repository.ObtenerXId(id));
         }
 
         // GET: PersonaController/Create
-        public ActionResult Create()
+        public async Task<ActionResult> Create()
         {
-            return View();
+            return View(new PersonaDto());
         }
 
         // POST: PersonaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(IFormCollection collection)
         {
             try
             {
@@ -47,15 +48,15 @@ namespace PersonApp.WebApp.Controllers
         }
 
         // GET: PersonaController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(int id)
         {
-            return View();
+            return View(await _repository.ObtenerXId(id));
         }
 
         // POST: PersonaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(PersonaDto dto)
         {
             try
             {
@@ -66,17 +67,11 @@ namespace PersonApp.WebApp.Controllers
                 return View();
             }
         }
-
-        // GET: PersonaController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
+        
         // POST: PersonaController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult> Delete(int id)
         {
             try
             {

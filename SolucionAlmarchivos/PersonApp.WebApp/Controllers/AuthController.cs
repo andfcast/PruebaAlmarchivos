@@ -15,8 +15,9 @@ namespace PersonApp.WebApp.Controllers
             _repository = repository;
         }
         // GET: AuthController
-        public ActionResult Login()
+        public async Task<ActionResult> Login()
         {
+            HttpContext.Session.Clear();
             return View(new LoginDto());
         }
 
@@ -33,7 +34,8 @@ namespace PersonApp.WebApp.Controllers
                     var resultado = await _repository.Login(dto);
                     if (resultado.EsValido)
                     {
-                        return RedirectToAction(nameof(Index));
+                        HttpContext.Session.SetString("Autenticado","true");
+                        return RedirectToAction("Index","Home");
                     }
                     else {
                         return RedirectToAction(nameof(Index));
@@ -44,8 +46,15 @@ namespace PersonApp.WebApp.Controllers
             }
             catch
             {
+                HttpContext.Session.Clear();
                 return View();
             }
-        }        
+        }
+
+        public async Task<ActionResult> LogOut()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction(nameof(Login));
+        }
     }
 }
