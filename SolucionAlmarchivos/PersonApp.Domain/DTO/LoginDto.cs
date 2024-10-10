@@ -10,6 +10,7 @@ namespace PersonApp.Domain.DTO
     public class LoginDto
     {
         [Required(ErrorMessage = "El campo Usuario es obligatorio")]
+        [Display(Name ="Nombre de Usuario")]
         public string NomUsuario { get; set; }
 
         [Required(ErrorMessage = "El campo Contraseña es obligatorio")]

@@ -49,8 +49,7 @@ public partial class RegistrosDbContext : DbContext
         });
 
         modelBuilder.Entity<Usuario>(entity =>
-        {
-            entity.Property(e => e.Id).ValueGeneratedNever();
+        {            
             entity.Property(e => e.FechaCreacion)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
