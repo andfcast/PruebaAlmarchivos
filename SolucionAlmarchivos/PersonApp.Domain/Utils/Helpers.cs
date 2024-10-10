@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Runtime.Intrinsics.Arm;
 using System.Security.Cryptography;
@@ -20,6 +21,21 @@ namespace PersonApp.Domain.Utils
                 }
             }
                 return sb.ToString();
-        }        
+        }
+
+        public static string ObtenerDescripcion(this Enum enumValue)
+        {
+            var campo = enumValue.GetType().GetField(enumValue.ToString());
+            if (campo == null)
+                return enumValue.ToString();
+
+            var atributos = campo.GetCustomAttributes(typeof(DescriptionAttribute), false);
+            if (Attribute.GetCustomAttribute(campo, typeof(DescriptionAttribute)) is DescriptionAttribute atributo)
+            {
+                return atributo.Description;
+            }
+
+            return enumValue.ToString();
+        }
     }
 }

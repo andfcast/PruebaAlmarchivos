@@ -17,19 +17,31 @@ namespace PersonApp.WebApp.Controllers
 		// GET: PersonaController
 		public async Task<ActionResult> Index()
 		{
-			return View(await _repository.Listar());
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            return View(await _repository.Listar());
 		}
 
 		// GET: PersonaController/Details/5
 		public async Task<ActionResult> Details(int id)
 		{
-			return View(await _repository.ObtenerXId(id));
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            return View(await _repository.ObtenerXId(id));
 		}
 
 		// GET: PersonaController/Create
 		public async Task<ActionResult> Create()
 		{
-			return View(new PersonaDto());
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            return View(new PersonaDto());
 		}
 
 		// POST: PersonaController/Create
@@ -37,13 +49,17 @@ namespace PersonApp.WebApp.Controllers
 		[ValidateAntiForgeryToken]
 		public async Task<ActionResult> Create(PersonaDto objPersona)
 		{
-			try
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            try
 			{
 				if (ModelState.IsValid)
 				{
 					RespuestaDto respuesta = await _repository.Insertar(objPersona);
 					if (respuesta.EsValido)
-					{
+					{						
 						return RedirectToAction(nameof(Index));
 					}
 					else
@@ -67,7 +83,11 @@ namespace PersonApp.WebApp.Controllers
 		// GET: PersonaController/Edit/5
 		public async Task<ActionResult> Edit(int id)
 		{
-			return View(await _repository.ObtenerXId(id));
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            return View(await _repository.ObtenerXId(id));
 		}
 
 		// POST: PersonaController/Edit/5
@@ -75,7 +95,11 @@ namespace PersonApp.WebApp.Controllers
 		[ValidateAntiForgeryToken]
 		public async Task<ActionResult> Edit(PersonaDto objPersona)
 		{
-			try
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            try
 			{
 				if (ModelState.IsValid)
 				{
@@ -103,12 +127,13 @@ namespace PersonApp.WebApp.Controllers
 		}
 
 		// POST: PersonaController/Delete/5
-		[HttpPost]
-		[ValidateAntiForgeryToken]
 		public async Task<ActionResult> Delete(int id)
 		{
-
-			RespuestaDto respuesta = await _repository.Borrar(id);
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            RespuestaDto respuesta = await _repository.Borrar(id);
 			if (!respuesta.EsValido)
 			{
 				ViewData["error"] = respuesta.Mensaje;

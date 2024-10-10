@@ -19,27 +19,6 @@
 
 
 <hr />
-@* <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Login">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="NomUsuario" class="control-label"></label>
-                <input asp-for="NomUsuario" class="form-control" />
-                <span asp-validation-for="NomUsuario" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Entrar" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div> *@
-
 	<div class="container h-100">
 		<div class="d-flex justify-content-center h-100">
 			<div class="user_card">
@@ -69,6 +48,12 @@
 							<span asp-validation-for="NomUsuario" class="text-danger"></span>
 							<br />
 							<span asp-validation-for="Password" class="text-danger"></span>
+							<br />
+							@if (ViewData["MensajeError"] != null)
+							{
+								<label class="text-danger">@ViewData["MensajeError"]</label>
+
+							}
 						</div>
 						<div class="d-flex justify-content-center mt-3 login_container">
 							<input type="submit" value="Entrar" class="btn login_btn" value="Entrar">

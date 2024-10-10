@@ -1,4 +1,5 @@
-﻿@model PersonApp.Domain.DTO.PersonaDto
+﻿@using PersonApp.Domain.Utils
+@model PersonApp.Domain.DTO.PersonaDto
 
 @{
     ViewData["Title"] = "Edit";
@@ -25,7 +26,21 @@
             </div>
             <div class="form-group">
                 <label asp-for="IdTipoIdentificacion" class="control-label"></label>
-                <input asp-for="IdTipoIdentificacion" class="form-control" />
+                <select asp-for="IdTipoIdentificacion" class="form-control">
+                    <option value="">Seleccione uno</option>
+                    @foreach (var item in Enumerable.Range(1, Enum.GetNames(typeof(PersonApp.Domain.Enums.TiposDocumento)).Length).ToList())
+                    {
+                        if (Model.IdTipoIdentificacion == item)                        
+                        {
+                            <option value="@item" selected>@Helpers.ObtenerDescripcion((PersonApp.Domain.Enums.TiposDocumento)item)</option>
+                        }
+                        else
+                        {
+                            <option value="@item">@Helpers.ObtenerDescripcion((PersonApp.Domain.Enums.TiposDocumento)item)</option>
+                        }
+                    }
+                </select>
+                @* <input asp-for="IdTipoIdentificacion" class="form-control" /> *@
                 <span asp-validation-for="IdTipoIdentificacion" class="text-danger"></span>
             </div>            
             <div class="form-group">

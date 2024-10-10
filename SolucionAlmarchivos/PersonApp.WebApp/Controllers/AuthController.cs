@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PersonApp.Application.Interfaces;
 using PersonApp.Domain.DTO;
 using PersonApp.Domain.Utils;
@@ -16,7 +15,8 @@ namespace PersonApp.WebApp.Controllers
         }
         // GET: AuthController
         public async Task<ActionResult> Login()
-        {            
+        {
+			HttpContext.Session.Clear();
             return View(new LoginDto());
         }
                 
@@ -30,11 +30,13 @@ namespace PersonApp.WebApp.Controllers
                     var resultado = await _repository.Login(dto);
                     if (resultado.EsValido)
                     {
+                        TempData["Mensaje"] = "Exitoso";
                         HttpContext.Session.SetString("Autenticado","true");
                         return RedirectToAction("Index","Home");
                     }
                     else {
-                        return RedirectToAction(nameof(Login));
+                        ViewData["MensajeError"] = resultado.Mensaje;
+                        return View(dto);
                     }
                 }
                 return View(dto);

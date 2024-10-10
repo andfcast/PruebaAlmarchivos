@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -8,17 +9,17 @@ using System.Threading.Tasks;
 namespace PersonApp.Domain.Enums
 {
     public enum TiposDocumento {
-        [Display(Name ="Cédula de Ciudadanía")]
-        CedulaCiudadania  =1,
-        [Display(Name = "Nit")]
+        [Description("Cédula de Ciudadanía")]
+        CedulaCiudadania = 1,
+        [Description("Nit")]
         Nit,
-        [Display(Name = "Cédula de Extranjería")]
+        [Description("Cédula de Extranjería")]
         CedulaExtranjeria,
-        [Display(Name = "Tarjeta de Identidad")]
+        [Description("Tarjeta de Identidad")]
         TarjetaIdentidad,
-        [Display(Name = "Pasaporte")]
+        [Description("Pasaporte")]
         Pasaporte,
-        [Display(Name = "Registro Civil")]
+        [Description("Registro Civil")]
         RegistroCivil
     }
 }

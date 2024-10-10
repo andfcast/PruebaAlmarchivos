@@ -11,25 +11,25 @@
 </p>
 <table class="table">
     <thead>
-        <tr>                        
+        <tr>
             <th>
                 @Html.DisplayNameFor(model => model.NomUsuario)
-            </th>            
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>                        
-            <td>
-                @Html.DisplayFor(modelItem => item.NomUsuario)
-            </td>            
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.Id, @class = "btn btn-warning" })
-                @Html.ActionLink("Details", "Details", new { id = item.Id, @class = "btn btn-info" })
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id, @class = "btn btn-danger" })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomUsuario)
+                </td>
+                <td>
+                    <a class="btn btn-warning" href="@Url.Action("Edit","Usuario", new { id = item.Id})">Editar</a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete","Usuario", new { id = item.Id})">Eliminar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

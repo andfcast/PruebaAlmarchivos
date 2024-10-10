@@ -13,6 +13,16 @@ builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddDbContext<RegistrosDbContext>(options =>
 	options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnectionString"))
 );
+builder.Services.AddSession(options => {
+	options.IdleTimeout = TimeSpan.FromMinutes(20); // Tiempo de expiración   
+    options.IOTimeout = TimeSpan.FromSeconds(10);
+    options.Cookie.Name = ".PersonApp.Session";
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+    options.Cookie.Path = "/";
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,7 +39,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.UseSession();
 app.MapControllerRoute(
     name: "default",
     //pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -19,12 +19,20 @@ namespace Usuariopp.WebApp.Controllers
         // GET: UsuarioController
         public async Task<ActionResult> Index()
         {
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
             return View(await _repository.Listar());
         }
         
         // GET: UsuarioController/Create
         public async Task<ActionResult> Create()
         {
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
             return View(new UsuarioDto());
         }
 
@@ -33,7 +41,11 @@ namespace Usuariopp.WebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(UsuarioDto objUsuario)
 		{
-			if (ModelState.IsValid)
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            if (ModelState.IsValid)
 			{
                 objUsuario.Password = Helpers.Encriptar(objUsuario.Password);
 				objUsuario.ConfirmaPass = Helpers.Encriptar(objUsuario.ConfirmaPass);
@@ -57,6 +69,10 @@ namespace Usuariopp.WebApp.Controllers
         // GET: UsuarioController/Edit/5
         public async Task<ActionResult> Edit(int id)
         {
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
             return View(await _repository.ObtenerXId(id));
         }
 
@@ -65,8 +81,11 @@ namespace Usuariopp.WebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(UsuarioDto objUsuario)
         {
-
-			try
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            try
 			{
 				if (ModelState.IsValid)
 				{
@@ -99,12 +118,14 @@ namespace Usuariopp.WebApp.Controllers
 			}			
         }        
 
-        // POST: UsuarioController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        // POST: UsuarioController/Delete/5        
         public async Task<ActionResult> Delete(int id)
         {
-			RespuestaDto respuesta = await _repository.Borrar(id);
+            if (HttpContext.Session.Keys.Count() == 0)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+            RespuestaDto respuesta = await _repository.Borrar(id);
 			if (!respuesta.EsValido)
 			{
 				ViewData["error"] = respuesta.Mensaje;

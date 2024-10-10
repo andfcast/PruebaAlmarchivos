@@ -128,7 +128,8 @@ namespace PersonApp.Infrastructure.Repositories
 					Apellidos = item.Apellidos,
 					Email = item.Email,
 					IdTipoIdentificacion = item.IdTipoIdentificacion,
-					TipoIdentificacion = _context.TiposIdentificacions.FirstAsync(x => x.Id == item.IdTipoIdentificacion).Result.Descripcion
+					TipoIdentificacion = _context.TiposIdentificacions.FirstAsync(x => x.Id == item.IdTipoIdentificacion).Result.Descripcion,
+					NumIdentificacion = item.NumIdentificacion
 				});
 			}
 			return lstPersonas;
@@ -144,7 +145,8 @@ namespace PersonApp.Infrastructure.Repositories
 				Apellidos = persona.Apellidos,
 				Email = persona.Email,
 				IdTipoIdentificacion = persona.IdTipoIdentificacion,
-				TipoIdentificacion = _context.TiposIdentificacions.FirstAsync(x => x.Id == persona.IdTipoIdentificacion).Result.Descripcion
+				TipoIdentificacion = _context.TiposIdentificacions.FirstAsync(x => x.Id == persona.IdTipoIdentificacion).Result.Descripcion,
+				NumIdentificacion = persona.NumIdentificacion
 			};
 		}
     }

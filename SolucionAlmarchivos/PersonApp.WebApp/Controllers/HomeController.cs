@@ -15,6 +15,9 @@ namespace PersonApp.WebApp.Controllers
 
         public IActionResult Index()
         {
+            if (HttpContext.Session == null) {
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }        
 
