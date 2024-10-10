@@ -1,0 +1,12 @@
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\bin\Debug\net8.0\PersonApp.Domain.deps.json
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\bin\Debug\net8.0\PersonApp.Domain.dll
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\bin\Debug\net8.0\PersonApp.Domain.pdb
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\PersonApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\PersonApp.Domain.AssemblyInfoInputs.cache
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\PersonApp.Domain.AssemblyInfo.cs
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\PersonApp.Domain.csproj.CoreCompileInputs.cache
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\PersonApp.Domain.sourcelink.json
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\PersonApp.Domain.dll
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\refint\PersonApp.Domain.dll
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\PersonApp.Domain.pdb
+D:\Git\PruebaAlmarchivos\SolucionAlmarchivos\PersonApp.Domain\obj\Debug\net8.0\ref\PersonApp.Domain.dll

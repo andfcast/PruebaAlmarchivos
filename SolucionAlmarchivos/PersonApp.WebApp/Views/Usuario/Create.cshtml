@@ -1,0 +1,54 @@
+﻿@model PersonApp.Domain.DTO.UsuarioDto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear Nuevo Usuario</h1>
+<br />
+<hr />
+<br />
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div> 
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="NomUsuario" class="control-label"></label>
+                <input asp-for="NomUsuario" class="form-control" />
+                <span asp-validation-for="NomUsuario" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>        
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="ConfirmaPass" class="control-label"></label>
+                <input asp-for="ConfirmaPass" type="password" class="form-control" />
+                <span asp-validation-for="ConfirmaPass" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-6">
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>             
+</form>
+<br />
+<br />
+<div>
+    <a class="btn btn-info" asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,89 @@
+﻿@using PersonApp.Domain.Utils
+@model PersonApp.Domain.DTO.PersonaDto
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Actualizar registro</h1>
+
+<br />
+<hr />
+<br />
+
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input asp-for="Id" type="hidden" />
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="Nombres" class="control-label"></label>
+                <input asp-for="Nombres" class="form-control" />
+                <span asp-validation-for="Nombres" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="Apellidos" class="control-label"></label>
+                <input asp-for="Apellidos" class="form-control" />
+                <span asp-validation-for="Apellidos" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="IdTipoIdentificacion" class="control-label"></label>
+                <select asp-for="IdTipoIdentificacion" class="form-control">
+                    <option value="">Seleccione uno</option>
+                    @foreach (var item in Enumerable.Range(1, Enum.GetNames(typeof(PersonApp.Domain.Enums.TiposDocumento)).Length).ToList())
+                    {
+                        if (Model.IdTipoIdentificacion == item)
+                        {
+                            <option value="@item" selected>@Helpers.ObtenerDescripcion((PersonApp.Domain.Enums.TiposDocumento)item)</option>
+                        }
+                        else
+                        {
+                            <option value="@item">@Helpers.ObtenerDescripcion((PersonApp.Domain.Enums.TiposDocumento)item)</option>
+                        }
+                    }
+                </select>                
+                <span asp-validation-for="IdTipoIdentificacion" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="NumIdentificacion" class="control-label"></label>
+                <input asp-for="NumIdentificacion" type="number" min="0" step="1" class="form-control" />
+                <span asp-validation-for="NumIdentificacion" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" type="email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-6">
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Guardar cambios" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+</form>
+<br />
+<br />
+
+<div>
+    <a asp-action="Index" class="btn btn-info">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

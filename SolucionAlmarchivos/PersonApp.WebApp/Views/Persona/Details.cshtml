@@ -1,0 +1,56 @@
+﻿@model PersonApp.Domain.DTO.PersonaDto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Información detallada</h1>
+
+<div>
+    <br />
+    <hr />
+    <br />
+    <div class="row">
+        <div class="col-3" style="font-weight:bold">
+            @Html.DisplayNameFor(model => model.Nombres)
+        </div>
+        <div class="col-3">
+            @Html.DisplayFor(model => model.Nombres)
+        </div>
+        <div class="col-3" style="font-weight:bold">
+            @Html.DisplayNameFor(model => model.Apellidos)
+        </div>
+        <div class="col-3">
+            @Html.DisplayFor(model => model.Apellidos)
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3" style="font-weight:bold">
+            @Html.DisplayNameFor(model => model.TipoIdentificacion)
+        </div>
+        <div class="col-3">
+            @Html.DisplayFor(model => model.TipoIdentificacion)
+        </div>
+        <div class="col-3" style="font-weight:bold">
+            @Html.DisplayNameFor(model => model.NumIdentificacion)
+        </div>
+        <div class="col-3">
+            @Html.DisplayFor(model => model.NumIdentificacion)
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3" style="font-weight:bold">
+            @Html.DisplayNameFor(model => model.Email)
+        </div>
+        <div class="col-3">
+            @Html.DisplayFor(model => model.Email)
+        </div>
+        <div class="col-3">
+        </div>
+        <div class="col-3">
+        </div>
+    </div>    
+</div>
+<div>    
+    <a class="btn btn-info" asp-action="Index">Volver</a>
+</div>

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PersonApp.Domain.DTO.UsuarioDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Registro de Usuarios</h1>
+
+<p>
+    <a class="btn btn-info" asp-action="Create">Crear Nuevo Usuario</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomUsuario)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomUsuario)
+                </td>
+                <td>
+                    <a class="btn btn-warning" href="@Url.Action("Edit","Usuario", new { id = item.Id})">Editar</a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete","Usuario", new { id = item.Id})">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
